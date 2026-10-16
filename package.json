@@ -5,6 +5,11 @@
     "dsh": ">=0.2.0-rc.2 <0.2.2-0"
   },
   "private": true,
+    "peerDependencies": {
+    "@deepseek-ai/schemastery": "*",
+    "@deepseek-ai/dsh-scope": "*",
+    "@deepseek-ai/dsh-system-prompt": "*"
+  },
   "description": "Toggleable unrestricted mode for DeepSeek Harness: fuses execution rules into the active standard, ptc, cordis, minimal, and subagent prompts",
   "license": "MIT",
   "repository": {
